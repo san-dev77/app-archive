@@ -1,0 +1,17 @@
+git remote add origin https://github.com/username/repository.git
+git branch -M main
+git push -u origin main
+
+
+--->dangereux car le -f ecrase les anciens push pour ne prendre que le nouveau
+git push -f origin main
+
+
+
+
+
+--Pour relier le depot local au depot distant ou si on a fait une erreur on en change 
+grace au set:
+git remote add origin https://github.com/username/repository.git  # Ajoutez la télécommande si elle n'existe pas
+# ou
+git remote set-url origin https://github.com/username/repository.git  # Mettez à jour l'URL de la télécommande existante
