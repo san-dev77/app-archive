@@ -1,7 +1,16 @@
-git remote add origin https://github.com/username/repository.git
+gitgit remote add origin https://github.com/username/repository.git
 git branch -M main
 git push -u origin main
 
+pour verifier les branch existantes au niveau du depot distant :
+git branch -r
+
+dans le cadre ou le depot locale ne trouve pas des modif du depot distant : 
+git fetch --all 
+
+
+pour obtenir les modif d'un projet sur un depot distant :
+git pull (une fois sur la bonne branch )
 
 --->dangereux car le -f ecrase les anciens push pour ne prendre que le nouveau
 git push -f origin main
