@@ -2,6 +2,9 @@ gitgit remote add origin https://github.com/username/repository.git
 git branch -M main
 git push -u origin main
 
+pour pusher sur une branche a distance : 
+git push -u origin nom de la branche
+
 pour verifier les branch existantes au niveau du depot distant :
 git branch -r
 
